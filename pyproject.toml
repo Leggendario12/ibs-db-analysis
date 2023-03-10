@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ibs-db-analysis"
+version = "0.1.0"
+description = "Python3 Scientific Tools for Analyzing IBS Database Tables"
+authors = ["Daniel Montecillo <daniel.montecillo@montecillo.ca>"]
+readme = "README.md"
+packages = [{include = "ibs_db_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+psycopg2-binary = "^2.9.5"
+python-dotenv = "^1.0.0"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
